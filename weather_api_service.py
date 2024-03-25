@@ -11,3 +11,4 @@ def api_service(coords=title_coords()):
     url = 'https://api.weather.yandex.ru/v2/informers'
     headers = {'X-Yandex-API-Key': api_key}
     return requests.get(url, params=params, headers=headers).json()
+# WARNING!!! EVIL RUSSIANS!!! VODKA AND MEDVED AHEAD!!!
